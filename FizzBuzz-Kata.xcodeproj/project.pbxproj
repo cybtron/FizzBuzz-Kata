@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFB636AA14BD4EF600CD115D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB636A914BD4EF600CD115D /* UIKit.framework */; };
+		AFB636AC14BD4EF600CD115D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB636AB14BD4EF600CD115D /* Foundation.framework */; };
+		AFB636AE14BD4EF600CD115D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB636AD14BD4EF600CD115D /* CoreGraphics.framework */; };
+		AFB636B414BD4EF600CD115D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFB636B214BD4EF600CD115D /* InfoPlist.strings */; };
+		AFB636B614BD4EF600CD115D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB636B514BD4EF600CD115D /* main.m */; };
+		AFB636BA14BD4EF600CD115D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB636B914BD4EF600CD115D /* AppDelegate.m */; };
+		AFB636BD14BD4EF600CD115D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB636BC14BD4EF600CD115D /* ViewController.m */; };
+		AFB636C014BD4EF600CD115D /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFB636BE14BD4EF600CD115D /* ViewController_iPhone.xib */; };
+		AFB636C314BD4EF600CD115D /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFB636C114BD4EF600CD115D /* ViewController_iPad.xib */; };
+		AFB636CB14BD4EF600CD115D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB636CA14BD4EF600CD115D /* SenTestingKit.framework */; };
+		AFB636CC14BD4EF600CD115D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB636A914BD4EF600CD115D /* UIKit.framework */; };
+		AFB636CD14BD4EF600CD115D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB636AB14BD4EF600CD115D /* Foundation.framework */; };
+		AFB636D514BD4EF600CD115D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFB636D314BD4EF600CD115D /* InfoPlist.strings */; };
+		AFB636D814BD4EF600CD115D /* FizzBuzz_KataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB636D714BD4EF600CD115D /* FizzBuzz_KataTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFB636CE14BD4EF600CD115D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB6369C14BD4EF600CD115D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB636A414BD4EF600CD115D;
+			remoteInfo = "FizzBuzz-Kata";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFB636A514BD4EF600CD115D /* FizzBuzz-Kata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FizzBuzz-Kata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB636A914BD4EF600CD115D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFB636AB14BD4EF600CD115D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFB636AD14BD4EF600CD115D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFB636B114BD4EF600CD115D /* FizzBuzz-Kata-Info.plist */ = {isa = PBXFileReference; path = "FizzBuzz-Kata-Info.plist"; sourceTree = "<group>"; };
+		AFB636B314BD4EF600CD115D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFB636B514BD4EF600CD115D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFB636B714BD4EF600CD115D /* FizzBuzz-Kata-Prefix.pch */ = {isa = PBXFileReference; path = "FizzBuzz-Kata-Prefix.pch"; sourceTree = "<group>"; };
+		AFB636B814BD4EF600CD115D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFB636B914BD4EF600CD115D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFB636BB14BD4EF600CD115D /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		AFB636BC14BD4EF600CD115D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFB636BF14BD4EF600CD115D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		AFB636C214BD4EF600CD115D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		AFB636C914BD4EF600CD115D /* FizzBuzz-KataTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FizzBuzz-KataTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB636CA14BD4EF600CD115D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AFB636D214BD4EF600CD115D /* FizzBuzz-KataTests-Info.plist */ = {isa = PBXFileReference; path = "FizzBuzz-KataTests-Info.plist"; sourceTree = "<group>"; };
+		AFB636D414BD4EF600CD115D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFB636D614BD4EF600CD115D /* FizzBuzz_KataTests.h */ = {isa = PBXFileReference; path = FizzBuzz_KataTests.h; sourceTree = "<group>"; };
+		AFB636D714BD4EF600CD115D /* FizzBuzz_KataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FizzBuzz_KataTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFB636A214BD4EF600CD115D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB636AA14BD4EF600CD115D /* UIKit.framework in Frameworks */,
+				AFB636AC14BD4EF600CD115D /* Foundation.framework in Frameworks */,
+				AFB636AE14BD4EF600CD115D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB636C514BD4EF600CD115D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB636CB14BD4EF600CD115D /* SenTestingKit.framework in Frameworks */,
+				AFB636CC14BD4EF600CD115D /* UIKit.framework in Frameworks */,
+				AFB636CD14BD4EF600CD115D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFB6369A14BD4EF600CD115D = {
+			isa = PBXGroup;
+			children = (
+				AFB636AF14BD4EF600CD115D /* FizzBuzz-Kata */,
+				AFB636D014BD4EF600CD115D /* FizzBuzz-KataTests */,
+				AFB636A814BD4EF600CD115D /* Frameworks */,
+				AFB636A614BD4EF600CD115D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB636A614BD4EF600CD115D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB636A514BD4EF600CD115D /* FizzBuzz-Kata.app */,
+				AFB636C914BD4EF600CD115D /* FizzBuzz-KataTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB636A814BD4EF600CD115D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFB636A914BD4EF600CD115D /* UIKit.framework */,
+				AFB636AB14BD4EF600CD115D /* Foundation.framework */,
+				AFB636AD14BD4EF600CD115D /* CoreGraphics.framework */,
+				AFB636CA14BD4EF600CD115D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFB636AF14BD4EF600CD115D /* FizzBuzz-Kata */ = {
+			isa = PBXGroup;
+			children = (
+				AFB636B814BD4EF600CD115D /* AppDelegate.h */,
+				AFB636B914BD4EF600CD115D /* AppDelegate.m */,
+				AFB636BB14BD4EF600CD115D /* ViewController.h */,
+				AFB636BC14BD4EF600CD115D /* ViewController.m */,
+				AFB636BE14BD4EF600CD115D /* ViewController_iPhone.xib */,
+				AFB636C114BD4EF600CD115D /* ViewController_iPad.xib */,
+				AFB636B014BD4EF600CD115D /* Supporting Files */,
+			);
+			path = "FizzBuzz-Kata";
+			sourceTree = "<group>";
+		};
+		AFB636B014BD4EF600CD115D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFB636B114BD4EF600CD115D /* FizzBuzz-Kata-Info.plist */,
+				AFB636B214BD4EF600CD115D /* InfoPlist.strings */,
+				AFB636B514BD4EF600CD115D /* main.m */,
+				AFB636B714BD4EF600CD115D /* FizzBuzz-Kata-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFB636D014BD4EF600CD115D /* FizzBuzz-KataTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB636D614BD4EF600CD115D /* FizzBuzz_KataTests.h */,
+				AFB636D714BD4EF600CD115D /* FizzBuzz_KataTests.m */,
+				AFB636D114BD4EF600CD115D /* Supporting Files */,
+			);
+			path = "FizzBuzz-KataTests";
+			sourceTree = "<group>";
+		};
+		AFB636D114BD4EF600CD115D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFB636D214BD4EF600CD115D /* FizzBuzz-KataTests-Info.plist */,
+				AFB636D314BD4EF600CD115D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFB636A414BD4EF600CD115D /* FizzBuzz-Kata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB636DB14BD4EF600CD115D /* Build configuration list for PBXNativeTarget "FizzBuzz-Kata" */;
+			buildPhases = (
+				AFB636A114BD4EF600CD115D /* Sources */,
+				AFB636A214BD4EF600CD115D /* Frameworks */,
+				AFB636A314BD4EF600CD115D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FizzBuzz-Kata";
+			productName = "FizzBuzz-Kata";
+			productReference = AFB636A514BD4EF600CD115D /* FizzBuzz-Kata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFB636C814BD4EF600CD115D /* FizzBuzz-KataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB636DE14BD4EF600CD115D /* Build configuration list for PBXNativeTarget "FizzBuzz-KataTests" */;
+			buildPhases = (
+				AFB636C414BD4EF600CD115D /* Sources */,
+				AFB636C514BD4EF600CD115D /* Frameworks */,
+				AFB636C614BD4EF600CD115D /* Resources */,
+				AFB636C714BD4EF600CD115D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB636CF14BD4EF600CD115D /* PBXTargetDependency */,
+			);
+			name = "FizzBuzz-KataTests";
+			productName = "FizzBuzz-KataTests";
+			productReference = AFB636C914BD4EF600CD115D /* FizzBuzz-KataTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFB6369C14BD4EF600CD115D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "HSG Corporation";
+			};
+			buildConfigurationList = AFB6369F14BD4EF600CD115D /* Build configuration list for PBXProject "FizzBuzz-Kata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFB6369A14BD4EF600CD115D;
+			productRefGroup = AFB636A614BD4EF600CD115D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB636A414BD4EF600CD115D /* FizzBuzz-Kata */,
+				AFB636C814BD4EF600CD115D /* FizzBuzz-KataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFB636A314BD4EF600CD115D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB636B414BD4EF600CD115D /* InfoPlist.strings in Resources */,
+				AFB636C014BD4EF600CD115D /* ViewController_iPhone.xib in Resources */,
+				AFB636C314BD4EF600CD115D /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB636C614BD4EF600CD115D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB636D514BD4EF600CD115D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AFB636C714BD4EF600CD115D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFB636A114BD4EF600CD115D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB636B614BD4EF600CD115D /* main.m in Sources */,
+				AFB636BA14BD4EF600CD115D /* AppDelegate.m in Sources */,
+				AFB636BD14BD4EF600CD115D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB636C414BD4EF600CD115D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB636D814BD4EF600CD115D /* FizzBuzz_KataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFB636CF14BD4EF600CD115D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB636A414BD4EF600CD115D /* FizzBuzz-Kata */;
+			targetProxy = AFB636CE14BD4EF600CD115D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFB636B214BD4EF600CD115D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB636B314BD4EF600CD115D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFB636BE14BD4EF600CD115D /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB636BF14BD4EF600CD115D /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		AFB636C114BD4EF600CD115D /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB636C214BD4EF600CD115D /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		AFB636D314BD4EF600CD115D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB636D414BD4EF600CD115D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFB636D914BD4EF600CD115D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFB636DA14BD4EF600CD115D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFB636DC14BD4EF600CD115D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FizzBuzz-Kata/FizzBuzz-Kata-Prefix.pch";
+				INFOPLIST_FILE = "FizzBuzz-Kata/FizzBuzz-Kata-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFB636DD14BD4EF600CD115D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FizzBuzz-Kata/FizzBuzz-Kata-Prefix.pch";
+				INFOPLIST_FILE = "FizzBuzz-Kata/FizzBuzz-Kata-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AFB636DF14BD4EF600CD115D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FizzBuzz-Kata.app/FizzBuzz-Kata";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FizzBuzz-Kata/FizzBuzz-Kata-Prefix.pch";
+				INFOPLIST_FILE = "FizzBuzz-KataTests/FizzBuzz-KataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AFB636E014BD4EF600CD115D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FizzBuzz-Kata.app/FizzBuzz-Kata";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FizzBuzz-Kata/FizzBuzz-Kata-Prefix.pch";
+				INFOPLIST_FILE = "FizzBuzz-KataTests/FizzBuzz-KataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFB6369F14BD4EF600CD115D /* Build configuration list for PBXProject "FizzBuzz-Kata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB636D914BD4EF600CD115D /* Debug */,
+				AFB636DA14BD4EF600CD115D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB636DB14BD4EF600CD115D /* Build configuration list for PBXNativeTarget "FizzBuzz-Kata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB636DC14BD4EF600CD115D /* Debug */,
+				AFB636DD14BD4EF600CD115D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFB636DE14BD4EF600CD115D /* Build configuration list for PBXNativeTarget "FizzBuzz-KataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB636DF14BD4EF600CD115D /* Debug */,
+				AFB636E014BD4EF600CD115D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFB6369C14BD4EF600CD115D /* Project object */;
+}
