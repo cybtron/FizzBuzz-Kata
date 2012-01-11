@@ -3,7 +3,7 @@
 //  FizzBuzz-KataTests
 //
 //  Created by Hasaan Gilani on 1/11/12.
-//  Copyright (c) 2012 HSG Corporation. All rights reserved.
+//  Copyright (c) 2012 HG Corporation. All rights reserved.
 //
 
 #import <SenTestingKit/SenTestingKit.h>
