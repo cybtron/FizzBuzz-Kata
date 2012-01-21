@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface FizzBuzzCalculator : NSObject
--(NSString*) calculate:(int) number;
+-(NSString *) calculate:(int) number;
 @end

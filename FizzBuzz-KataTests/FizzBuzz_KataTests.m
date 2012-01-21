@@ -11,37 +11,28 @@
 
 @implementation FizzBuzz_KataTests
 
+FizzBuzzCalculator* fizzBuzzCalulator;
+NSString *result;
 - (void)setUp
 {
     [super setUp];
-    
-    // Set-up code here.
-}
-
-- (void)tearDown
-{
-    // Tear-down code here.
-    
-    [super tearDown];
+    fizzBuzzCalulator = [[FizzBuzzCalculator alloc] init]; 
 }
 
 - (void)testNumberShouldReturnNumber
 {
-    FizzBuzzCalculator* fizzBuzzCalulator = [[FizzBuzzCalculator alloc] init]; 
-    NSString* result = [fizzBuzzCalulator calculate: 1];
+    result = [fizzBuzzCalulator calculate: 1];
     STAssertEqualObjects(result, @"1", @"test failed");
 }
 - (void)test3ShouldReturnFizz
 {
-    FizzBuzzCalculator* fizzBuzzCalulator = [[FizzBuzzCalculator alloc] init]; 
-    NSString* result = [fizzBuzzCalulator calculate: 3];
+    result = [fizzBuzzCalulator calculate: 3];
     STAssertEqualObjects(result, @"fizz", @"test failed");
 }
 
 - (void)testMultipleOf3ShouldReturnFizz
 {
-    FizzBuzzCalculator* fizzBuzzCalulator = [[FizzBuzzCalculator alloc] init]; 
-    NSString* result = [fizzBuzzCalulator calculate: 6];
+    result = [fizzBuzzCalulator calculate: 6];
     STAssertEqualObjects(result, @"fizz", @"test failed");
     
     result = [fizzBuzzCalulator calculate: 9];
@@ -50,18 +41,15 @@
 }
 
 - (void)test5ShouldReturnBuzz
-{
-    FizzBuzzCalculator* fizzBuzzCalulator = [[FizzBuzzCalculator alloc] init]; 
-    NSString* result = [fizzBuzzCalulator calculate: 5];
+{ 
+    result = [fizzBuzzCalulator calculate: 5];
     STAssertEqualObjects(result, @"buzz", @"test failed");
 }
 
 
 - (void)testMultipleOf5ShouldReturnFizz
 {
-    FizzBuzzCalculator* fizzBuzzCalulator = [[FizzBuzzCalculator alloc] init]; 
-    
-    NSString* result = [fizzBuzzCalulator calculate: 10];
+    result = [fizzBuzzCalulator calculate: 10];
     STAssertEqualObjects(result, @"buzz", @"test failed");
     
     result = [fizzBuzzCalulator calculate: 20];
@@ -75,7 +63,7 @@
 - (void)testMultipleOf3And5ShouldReturnBuzz
 {
     FizzBuzzCalculator* fizzBuzzCalulator = [[FizzBuzzCalculator alloc] init]; 
-    NSString* result = [fizzBuzzCalulator calculate: 15];
+    result = [fizzBuzzCalulator calculate: 15];
     STAssertEqualObjects(result, @"fizzbuzz", @"test failed");
 }
 
